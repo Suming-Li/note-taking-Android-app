@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#faf5f5">
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My first note"
+        android:id="@+id/text_view_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="false"
+        android:textSize="30dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/text_view_2"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:textStyle="italic"
+        android:textColor="#969696"
+        android:text="02/17/2016"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/image_view"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/text_view_2"
+        android:background="#faf5f5"
+
+        android:layout_margin="15dp" />
+</RelativeLayout>

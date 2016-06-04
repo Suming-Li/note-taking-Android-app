@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+<item
+    android:id="@+id/action_done"
+    android:orderInCategory="108"
+    android:title="@string/action_done"
+    android:icon="@drawable/ic_done_black_24dp"
+    app:showAsAction="always" />
+
+<item
+    android:id="@+id/action_share"
+    android:orderInCategory="107"
+    android:title="@string/action_share"
+    android:icon="@drawable/ic_share_black_24dp"
+    app:showAsAction="always"
+    android:actionProviderClass="android.widget.ShareActionProvider">
+</item>
+
+
+<item
+    android:icon="@drawable/ic_camera_alt_black_24dp"
+    android:title="Photo"
+    app:showAsAction="always">
+    <menu>
+        <item
+            android:id="@+id/take_photo"
+            android:title="Take Photo" />
+        <item
+            android:id="@+id/choose_photo"
+            android:title="Choose Photo" />
+    </menu>
+</item>
+
+
+
+</menu>

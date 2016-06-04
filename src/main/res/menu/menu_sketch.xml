@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:icon="@drawable/ic_brush_black_24dp"
+        android:title="Stroke"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/stroke_2"
+                android:title="@string/stroke_two" />
+            <item
+                android:id="@+id/stroke_1"
+                android:title="@string/stroke_one" />
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/color"
+        android:orderInCategory="111"
+        android:title="@string/color"
+        android:icon="@drawable/ic_color_lens_black_24dp"
+        app:showAsAction="always" >
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/green"
+                    android:title="@string/color_green"/>
+                <item
+                    android:id="@+id/red"
+                    android:title="@string/color_red" />
+                <item
+                    android:id="@+id/yellow"
+                    android:title="@string/color_yellow"/>
+                <item
+                    android:id="@+id/blue"
+                    android:title="@string/color_blue"/>
+                <item
+                    android:id="@+id/black"
+                    android:title="@string/color_black"/>
+            </group>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/sketch_done"
+        android:orderInCategory="112"
+        android:title="@string/sketch_done"
+        android:icon="@drawable/ic_done_black_24dp"
+        app:showAsAction="always" />
+
+</menu>

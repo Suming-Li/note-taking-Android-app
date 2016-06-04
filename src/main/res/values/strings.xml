@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">littleN</string>
+    <string name="action_information">About</string>
+    <string name="action_uninstall">Uninstall</string>
+    <string name="action_newNote">Create a new note</string>
+    <string name="action_newFolder">Create a new folder</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_note"></string>
+    <string name="action_settings">Settings</string>
+    <string name="action_newPhoto">Create a new photo</string>
+    <string name="action_newSketch">Create a new sketch</string>
+    <string name="title_activity_photo"></string>
+    <string name="action_done">Done</string>
+    <string name="action_share">Share</string>
+    <string name="title_activity_sketch"></string>
+    <string name="stroke_one">Stroke 1</string>
+    <string name="stroke_two">Stroke 2</string>
+    <string name="color">Color</string>
+    <string name="color_red">Red</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_green">Green</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_black">Black</string>
+    <string name="sketch_done">Done</string>
+    <string name="title_activity_detail"></string>
+    <string name="title_activity_about"></string>
+</resources>
