@@ -7,3 +7,8 @@ Integrated SQLite database to enable users to create, read, update and delete no
 
 Implemented more features like locking notes with password, searching notes by title, and sharing
 notes to other apps.
+
+![list](list.png)
+![note](note.png)
+![sketch](sketch.png)
+![about](about.png)
